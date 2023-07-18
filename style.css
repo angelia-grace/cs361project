@@ -1,0 +1,244 @@
+body {
+    background-color: #cfeaff;
+    padding: 10px;
+    font-family: Calibri;
+}
+h1 {
+    font-size: 60px;
+    text-align: left;
+}
+h2 {
+    color: black;
+}
+p {
+    color: black;
+    width: 100%;
+}
+table {
+    padding: 10px;
+    border-top: 10px solid #7D9D91;
+    background-color: #F3E1DD;
+    border-radius: 10px;
+}
+th {
+    padding: 10px;
+    text-align: center;
+    color: #5C6F68;
+}
+td {
+    padding: 5px;
+    text-align: center;
+    color: #5C6F68;
+    background-color: white;
+    width: 100px;
+}
+caption {
+    color: #546F60;
+    padding: 5px;
+}
+fieldset {
+    padding: 10px;
+    border: 0px;
+    border-left: 5px solid #ACC2C0;
+    background-color: rgb(229, 242, 235);
+    width: 70%;
+    line-height: 2;
+}
+legend {
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: rgb(229, 242, 235);
+    border-radius: 10px;
+    border: 5px solid #ACC2C0;
+    color:#495a54;
+}
+.sidebar {
+    width: 20%;
+    padding: 5px;
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    right: 2%;
+    background-color: #0a385c;
+    text-align: center;
+    height: 100%;
+    line-height: 3;
+    overflow-x: hidden;
+}
+.sidebar a {
+    color: #d4edff;;
+    background-color: #91c2e6;
+    width: 100%;
+    text-decoration: none;
+    padding: 10px;
+    border-top: 5px solid #d4edff;
+    border-bottom: 5px solid #d4edff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+.sidebar a:hover {
+    font-size: 25px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 5px 5px #0d283b;
+    transition: 0.2s;
+}
+.sidebar h2 {
+    border: 0px;
+    color: white;
+}
+
+button {
+    border: 5px solid #7D9D91;
+    border-radius: 5px;
+    background-color: #D8ECE6;
+    color: #495a54;
+}
+button:hover {
+    background-color: white;
+    border: 5px solid #F3E1DD;
+}
+button:focus {
+    background-color: white;
+    border: 5px solid #F3E1DD;
+    outline: 1px solid #F3E1DD;
+}
+input {
+    border: 2px solid #D8ECE6;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    color: #495a54;
+}
+input:focus {
+    background-color: #d4edff;
+    padding: 7px;
+    outline: 5px solid white;
+}
+
+.post {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 55%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 5px;
+    color: black;
+    text-align: justify;
+    padding-right: 50px;
+}
+
+.post h2 {
+    color: #0a385c;
+    background-color: none;
+    border: none;
+}
+
+.username {
+    color: gray;
+    size: 5px;
+}
+
+.edit {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.delete {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.delete button {
+    margin: 5px auto;
+    color: white;
+    background-color: #ff5757;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.delete button:hover {
+    margin: 0px auto;
+    padding: 15px;
+    border: none;
+    color: white;
+    background-color: red;
+    transition: 0.1s;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.edit button {
+    margin: 5px auto;
+    color: white;
+    background-color: #abdbff;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.edit button:hover {
+    margin: 0px auto;
+    padding: 15px;
+    border: none;
+    color: white;
+    background-color: #0a385c; 
+    transition: 0.1s;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.gentext {
+    width: 66%;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: fixed;
+    z-index: 0;
+    top: 0%;
+    left: 2%;
+    background-color: white;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.createpost a {
+    position: fixed;
+    text-decoration: none;
+    z-index: 2;
+    bottom: 10%;
+    right: 26%;
+    background-color: #abdbff;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+    border: 10px outset #abdbff;
+}
+
+.createpost a:hover {
+    background-color: #d4edff;
+    padding: 12px;
+    padding-right: 22px;
+    padding-left: 22px;
+    border: 10px outset #d4edff;
+}
+
+.gentext h1 {
+
+}
+
+.gentext h2 {
+
+}
+
+.gentext input {
+    border-color: darkgray;
+}

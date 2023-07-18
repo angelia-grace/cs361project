@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+    <title>My Feed</title>
+</head>
+
+<body>
+
+    <div class = "post">
+        <h2>Example post header</h2>
+        <div class = "username">posted by me</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rutrum tellus pellentesque eu tincidunt tortor. Morbi non arcu risus quis varius quam quisque id. Semper risus in hendrerit gravida. Amet est placerat in egestas. Duis tristique sollicitudin nibh sit. Adipiscing elit pellentesque habitant morbi tristique senectus et netus. Sed risus ultricies tristique nulla aliquet enim. In arcu cursus euismod quis viverra nibh. Et egestas quis ipsum suspendisse. Et malesuada fames ac turpis.</p>
+        <p>Scelerisque felis imperdiet proin fermentum leo vel orci porta. Lacus sed viverra tellus in hac habitasse.</p>
+        
+        <div class = "edit"><button type="submit">EDIT</button></div> 
+        <div class = "delete"><button type="submit">DELETE</button></div>
+
+    </div>
+
+    <div class = "post">
+        <h2>Example post header</h2>
+        <div class = "username">posted by example_user</div>
+        <p>In metus vulputate eu scelerisque felis imperdiet proin. Tincidunt augue interdum velit euismod. Hac habitasse platea dictumst quisque. Fermentum dui faucibus in ornare quam viverra orci. Montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Nullam non nisi est sit amet facilisis magna etiam. Quis eleifend quam adipiscing vitae. At consectetur lorem donec massa. In est ante in nibh. Cursus eget nunc scelerisque viverra mauris in aliquam sem. Tortor at auctor urna nunc id cursus metus.</p>
+        <p>Integer malesuada nunc vel risus commodo viverra maecenas accumsan lacus. Velit sed ullamcorper morbi tincidunt ornare massa eget. Egestas maecenas pharetra convallis posuere morbi leo urna molestie. Enim nunc faucibus a pellentesque sit amet. Fames ac turpis egestas integer. Orci sagittis eu volutpat odio facilisis mauris sit. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere morbi. Viverra aliquet eget sit amet tellus cras adipiscing enim. Quis enim lobortis scelerisque fermentum dui faucibus in. Egestas maecenas pharetra convallis posuere morbi leo urna molestie at. Ipsum faucibus vitae aliquet nec ullamcorper sit. Mi bibendum neque egestas congue quisque egestas diam.</p>
+        <p>Ultrices eros in cursus turpis massa tincidunt dui ut. Enim diam vulputate ut pharetra sit. A condimentum vitae sapien pellentesque habitant. In nulla posuere sollicitudin aliquam ultrices sagittis orci.</p>
+    </div>
+
+    <div class = "post">
+        <h2>Example post header</h2>
+        <div class = "username"> posted by example_user_2</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rutrum tellus pellentesque eu tincidunt tortor. Morbi non arcu risus quis varius quam quisque id. Semper risus in hendrerit gravida. Amet est placerat in egestas. Duis tristique sollicitudin nibh sit. Adipiscing elit pellentesque habitant morbi tristique senectus et netus. Sed risus ultricies tristique nulla aliquet enim. In arcu cursus euismod quis viverra nibh. Et egestas quis ipsum suspendisse. Et malesuada fames ac turpis.</p>
+        <p>Scelerisque felis imperdiet proin fermentum leo vel orci porta. Lacus sed viverra tellus in hac habitasse.</p>
+    </div>
+
+    <div class="sidebar">
+
+        <h2>NAVIGATION</h2>
+        <p></p>
+
+        <p><a href="/">HOME</a></p>
+        <p><a href="/feed/">MY FEED</a></p>
+        <p><a href="/user/example_username/">MY PROFILE</a></p>
+        <p><a href="/about/">ABOUT US</a></p>
+
+        <input type="text" placeholder="🔍︎ Search for something..."></input>
+
+    </div>
+
+    <div class = "createpost">
+        <a href="/createpost/"> 🖉 NEW </a>
+    </div>
+
+</body>
+</html>

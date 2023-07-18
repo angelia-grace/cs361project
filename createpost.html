@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+    <title>Food Waste Prevention App</title>
+</head>
+<body>
+
+<div class = "gentext">
+
+    <h1>Create New Post</h1>
+
+    <p><input type="text" placeholder="Post title"></input></p>
+    <p><input type="text" placeholder="Post content"></input></p>
+    
+    <div class = "delete"><button type="submit">CANCEL</button></div>
+    <div class = "edit"><button type="submit">POST</button></div> 
+
+</div>
+
+<div class="sidebar">
+
+        <h2>NAVIGATION</h2>
+        <p></p>
+
+        <p><a href="/">HOME</a></p>
+        <p><a href="/feed/">MY FEED</a></p>
+        <p><a href="/user/example_username/">MY PROFILE</a></p>
+        <p><a href="/about/">ABOUT US</a></p>
+
+        <input type="text" placeholder="🔍︎ Search for something..."></input>
+
+</div>
+
+</body>
+</html>
